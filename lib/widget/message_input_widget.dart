@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class MessageInputWidget extends StatelessWidget {
@@ -11,10 +10,7 @@ class MessageInputWidget extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Row(
         children: [
-          IconButton(
-            icon: const Icon(Icons.add, color: Colors.blue),
-            onPressed: () {},
-          ),
+          IconButton(icon: const Icon(Icons.add, color: Colors.blue), onPressed: () {}),
           Expanded(
             child: Container(
               height: 40.0,
@@ -35,12 +31,8 @@ class MessageInputWidget extends StatelessWidget {
                 ),
               ),
             ),
-
           ),
-          IconButton(
-            icon: const Icon(Icons.send, color: Colors.blue),
-            onPressed: () {},
-          ),
+          IconButton(icon: const Icon(Icons.send, color: Colors.blue), onPressed: () {}),
         ],
       ),
     );
