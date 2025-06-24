@@ -1,4 +1,4 @@
-# connectoin messenger
+# ConnectoinPlus
 
 A end to end communication application
 
